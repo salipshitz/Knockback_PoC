@@ -184,6 +184,11 @@ void AKnockback_PoCCharacter::OnFire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+
+	// TODO: Change this amount
+	// TODO: Then submit to source control
+	// TODO: Then push back to Github
+	Knockback(10);
 }
 
 void AKnockback_PoCCharacter::Knockback(float amount) {

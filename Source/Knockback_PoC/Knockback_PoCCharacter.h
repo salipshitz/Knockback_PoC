@@ -85,6 +85,7 @@ protected:
 	/** Fires a projectile. */
 	void OnFire();
 
+	/** GAME FUNCTION: Knockback */
 	void Knockback(float amount);
 
 	/** Resets HMD orientation and position in VR. */
